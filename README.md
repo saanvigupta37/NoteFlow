@@ -18,13 +18,7 @@ It allows users to create, view, and delete notes with data stored locally in th
 
 # Project Structure
 src/
-├── components/
-│   ├── Navbar.jsx
-│   └── Card.jsx
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
+src/ → components/ → Navbar.jsx | Card.jsx → App.jsx → App.css → index.css → main.jsx
 
 # Future Improvements
 - Edit notes functionality
