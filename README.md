@@ -2,7 +2,7 @@
 NoteFlow is a simple and clean note-taking web app built using React.
 It allows users to create, view, and delete notes with data stored locally in the browser.
 
-# Features- 
+# Features
 - Create and delete notes
 - Notes are saved using browser localStorage
 - Search notes by title or content
