@@ -23,5 +23,3 @@ src | components (Navbar.jsx, Card.jsx) | App.jsx | App.css | index.css | main.j
 - Edit notes functionality
 - Dark mode
 - Better animations
-
-
