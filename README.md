@@ -1,16 +1,34 @@
-# React + Vite
+# NoteFlow
+NoteFlow is a simple and clean note-taking web app built using React.
+It allows users to create, view, and delete notes with data stored locally in the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features- 
+- Create and delete notes
+- Notes are saved using browser localStorage
+- Search notes by title or content
+- Clean and responsive UI
+- Simple component-based structure
 
-Currently, two official plugins are available:
+# Tech Stack
+- React
+- Vite
+- JavaScript (ES6)
+- CSS
+- LocalStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Project Structure
+src/
+├── components/
+│   ├── Navbar.jsx
+│   └── Card.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
 
-## React Compiler
+# Future Improvements
+- Edit notes functionality
+- Dark mode
+- Better animations
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
